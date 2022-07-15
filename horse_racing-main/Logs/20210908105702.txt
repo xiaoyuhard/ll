@@ -1,0 +1,2065 @@
+﻿[2021/09/08 10:57:02] Log: Scene Main2 is loaded
+UnityEngine.Debug:Log (object)
+Reporter:_OnLevelWasLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/third-party/unity-log-viewer/Reporter/Reporter.cs:2055)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[2021/09/08 10:57:02] Log: MiniMapPanel 1200 1800
+UnityEngine.Debug:LogFormat (string,object[])
+UIView:Init () (at Assets/HorseRacing/scripts/main/view/UIView.cs:50)
+UiMeditor:OnRegister () (at Assets/HorseRacing/scripts/main/view/UiMeditor.cs:27)
+strange.extensions.mediation.impl.AbstractMediationBinder:ApplyMediationToView (strange.extensions.mediation.api.IMediationBinding,strange.extensions.mediation.api.IView,System.Type) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:99)
+strange.extensions.mediation.impl.AbstractMediationBinder:MapView (strange.extensions.mediation.api.IView,strange.extensions.mediation.api.IMediationBinding) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:240)
+strange.extensions.mediation.impl.AbstractMediationBinder:Trigger (strange.extensions.mediation.api.MediationEvent,strange.extensions.mediation.api.IView) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:56)
+strange.extensions.mediation.impl.AbstractMediationBinder:InjectViewAndChildren (strange.extensions.mediation.api.IView) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:122)
+strange.extensions.mediation.impl.AbstractMediationBinder:Trigger (strange.extensions.mediation.api.MediationEvent,strange.extensions.mediation.api.IView) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:74)
+strange.extensions.context.impl.MVCSContext:postBindings () (at Assets/third-party/Strange/extensions/context/impl/MVCSContext.cs:270)
+strange.extensions.context.impl.Context:Start () (at Assets/third-party/Strange/extensions/context/impl/Context.cs:105)
+MainContext:Start () (at Assets/HorseRacing/scripts/main/MainContext.cs:65)
+strange.extensions.context.impl.Context:.ctor (object,strange.extensions.context.api.ContextStartupFlags) (at Assets/third-party/Strange/extensions/context/impl/Context.cs:66)
+strange.extensions.context.impl.Context:.ctor (object) (at Assets/third-party/Strange/extensions/context/impl/Context.cs:70)
+strange.extensions.context.impl.CrossContext:.ctor (object) (at Assets/third-party/Strange/extensions/context/impl/CrossContext.cs:65)
+strange.extensions.context.impl.MVCSContext:.ctor (UnityEngine.MonoBehaviour) (at Assets/third-party/Strange/extensions/context/impl/MVCSContext.cs:206)
+MainContext:.ctor (UnityEngine.MonoBehaviour) (at Assets/HorseRacing/scripts/main/MainContext.cs:11)
+MainBootstrap:Start () (at Assets/HorseRacing/scripts/main/MainBootstrap.cs:22)
+
+[2021/09/08 10:57:03] Warning: There are menu items registered under Edit/Project Settings: Version/Edit Version, Version/Configuration
+Consider using [SettingsProvider] attribute to register in the Unified Settings Window.
+
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[2021/09/08 10:57:17] Log: 2021/9/8 10:57:17 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:17] Log: data info 2109080659 # data result 0 # model info 0 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:17] Log: introduction  ..... 
+UnityEngine.Debug:Log (object)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:75)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:17] Log: Text (TMP) (TMPro.TextMeshProUGUI)
+UnityEngine.MonoBehaviour:print (object)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:221)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:76)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:18] Log: 2021/9/8 10:57:18 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:18] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:19] Log: 2021/9/8 10:57:19 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:19] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:20] Log: 2021/9/8 10:57:20 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:20] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:21] Log: 2021/9/8 10:57:21 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:21] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:22] Log: 2021/9/8 10:57:22 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:22] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:23] Log: 2021/9/8 10:57:23 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:23] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:24] Log: 2021/9/8 10:57:24 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:24] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:25] Log: 2021/9/8 10:57:25 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:25] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:26] Log: 2021/9/8 10:57:26 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:26] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:27] Log: 2021/9/8 10:57:27 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:27] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:28] Log: 2021/9/8 10:57:28 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:28] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:29] Log: 2021/9/8 10:57:29 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:29] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:30] Log: 2021/9/8 10:57:30 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:30] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:31] Log: 2021/9/8 10:57:31 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:31] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:32] Log: 2021/9/8 10:57:32 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:32] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:33] Log: 2021/9/8 10:57:33 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:33] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:34] Log: 2021/9/8 10:57:34 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:34] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:35] Log: 2021/9/8 10:57:35 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:35] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:36] Log: 2021/9/8 10:57:36 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:36] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:37] Log: 2021/9/8 10:57:37 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:37] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:38] Log: 2021/9/8 10:57:38 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:38] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:39] Log: 2021/9/8 10:57:39 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:39] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:40] Log: 2021/9/8 10:57:40 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:40] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:41] Log: 2021/9/8 10:57:41 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:41] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:42] Log: 2021/9/8 10:57:42 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:42] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:43] Log: 2021/9/8 10:57:43 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:43] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:44] Log: 2021/9/8 10:57:44 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:44] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:45] Log: 2021/9/8 10:57:45 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:45] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:46] Log: 2021/9/8 10:57:46 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:46] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:47] Log: 2021/9/8 10:57:47 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:47] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:48] Log: 2021/9/8 10:57:48 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:48] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:49] Log: 2021/9/8 10:57:49 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:49] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:50] Log: 2021/9/8 10:57:50 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:50] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:51] Log: 2021/9/8 10:57:51 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:51] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:52] Log: 2021/9/8 10:57:52 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:52] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:53] Log: 2021/9/8 10:57:53 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:53] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:54] Log: 2021/9/8 10:57:54 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:54] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:55] Log: 2021/9/8 10:57:55 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:55] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:56] Log: 2021/9/8 10:57:56 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:56] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:57] Log: 2021/9/8 10:57:57 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:57] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:58] Log: 2021/9/8 10:57:58 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:58] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:59] Log: 2021/9/8 10:57:59 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:57:59] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:00] Log: 2021/9/8 10:58:00 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:00] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:01] Log: 2021/9/8 10:58:01 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:01] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:02] Log: 2021/9/8 10:58:02 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:02] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:03] Log: 2021/9/8 10:58:03 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:03] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:04] Log: 2021/9/8 10:58:04 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:04] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:05] Log: 2021/9/8 10:58:05 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:05] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:06] Log: 2021/9/8 10:58:06 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:06] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:07] Log: 2021/9/8 10:58:07 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:07] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:08] Log: 2021/9/8 10:58:08 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:08] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:09] Log: 2021/9/8 10:58:09 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:09] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:10] Log: 2021/9/8 10:58:10 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:10] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:11] Log: 2021/9/8 10:58:11 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:11] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:12] Log: 2021/9/8 10:58:12 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:12] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:13] Log: 2021/9/8 10:58:13 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:13] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:14] Log: 2021/9/8 10:58:14 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:14] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:15] Log: 2021/9/8 10:58:15 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:15] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:16] Log: 2021/9/8 10:58:16 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:16] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:17] Log: 2021/9/8 10:58:17 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:17] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:18] Log: 2021/9/8 10:58:18 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:18] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:19] Log: 2021/9/8 10:58:19 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:19] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:20] Log: 2021/9/8 10:58:20 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:20] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:21] Log: 2021/9/8 10:58:21 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:21] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:22] Log: 2021/9/8 10:58:22 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:22] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:23] Log: 2021/9/8 10:58:23 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:23] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:24] Log: 2021/9/8 10:58:24 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:24] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:25] Log: 2021/9/8 10:58:25 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:25] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:26] Log: 2021/9/8 10:58:26 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:26] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:27] Log: 2021/9/8 10:58:27 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:27] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:28] Log: 2021/9/8 10:58:28 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:28] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:29] Log: 2021/9/8 10:58:29 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:29] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:30] Log: 2021/9/8 10:58:30 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:30] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:31] Log: 2021/9/8 10:58:31 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:31] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:32] Log: 2021/9/8 10:58:32 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:32] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:33] Log: 2021/9/8 10:58:33 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:33] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:34] Log: 2021/9/8 10:58:34 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:34] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:35] Log: 2021/9/8 10:58:35 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:35] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:36] Log: 2021/9/8 10:58:36 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:36] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:37] Log: 2021/9/8 10:58:37 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:37] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:38] Log: 2021/9/8 10:58:38 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:38] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:39] Log: 2021/9/8 10:58:39 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:39] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:40] Log: 2021/9/8 10:58:40 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:40] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:41] Log: 2021/9/8 10:58:41 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:41] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:42] Log: 2021/9/8 10:58:42 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:42] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:43] Log: 2021/9/8 10:58:43 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:43] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:44] Log: 2021/9/8 10:58:44 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:44] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:45] Log: 2021/9/8 10:58:45 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:45] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:46] Log: 2021/9/8 10:58:46 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:46] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:47] Log: 2021/9/8 10:58:47 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:47] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:48] Log: 2021/9/8 10:58:48 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:48] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:49] Log: 2021/9/8 10:58:49 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:49] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:50] Log: 2021/9/8 10:58:50 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:50] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:51] Log: 2021/9/8 10:58:51 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:51] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:52] Log: 2021/9/8 10:58:52 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:52] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:53] Log: 2021/9/8 10:58:53 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:53] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:54] Log: 2021/9/8 10:58:54 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:54] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:55] Log: 2021/9/8 10:58:55 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:55] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:56] Log: 2021/9/8 10:58:56 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:56] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:57] Log: 2021/9/8 10:58:57 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:57] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:58] Log: 2021/9/8 10:58:58 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:58] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:59] Log: 2021/9/8 10:58:59 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:58:59] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:00] Log: 2021/9/8 10:59:00 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:00] Log: data info 2109080659 # data result 0 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 2021/9/8 10:59:02 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 0
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 1,3267,120020
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 2,3256,120020
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 3,3108,120040
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 4,3275,120000
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 5,3115,120000
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 6,3237,120000
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 7,3207,120010
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 8,3206,120030
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 9,3182,120030
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: 10,3284,120010
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Warning: 比赛成绩：
+6,3,31.08,120040,3
+8,5,31.15,120000,5
+4,9,31.82,120030,9
+5,8,32.06,120030,8
+1,7,32.07,120010,7
+9,6,32.37,120000,6
+10,2,32.56,120020,2
+7,1,32.67,120020,1
+2,4,32.75,120000,4
+3,10,32.84,120010,10
+UnityEngine.Debug:LogWarning (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:95)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:64)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:02] Log: racing  ..... 
+UnityEngine.Debug:Log (object)
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:66)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:04] Log: 2021/9/8 10:59:04 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:04] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:06] Log: 2021/9/8 10:59:06 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:06] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:08] Log: 2021/9/8 10:59:08 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:08] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:10] Log: 2021/9/8 10:59:10 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:10] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:12] Log: 2021/9/8 10:59:12 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:12] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:14] Log: 2021/9/8 10:59:14 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:14] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:16] Log: 2021/9/8 10:59:16 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:16] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:18] Log: 2021/9/8 10:59:18 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:18] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:20] Log: 2021/9/8 10:59:20 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:20] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:22] Log: 2021/9/8 10:59:22 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:22] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:24] Log: 2021/9/8 10:59:24 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:24] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:25] Warning: Can not play a disabled audio source
+UnityEngine.AudioSource:Play ()
+HorseSound:Update () (at Assets/HorseRacing/scripts/HorseSound.cs:29)
+
+[2021/09/08 10:59:26] Log: 2021/9/8 10:59:26 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:26] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:26] Warning: Can not play a disabled audio source
+UnityEngine.AudioSource:Play ()
+HorseSound:Update () (at Assets/HorseRacing/scripts/HorseSound.cs:29)
+
+[2021/09/08 10:59:27] Warning: Can not play a disabled audio source
+UnityEngine.AudioSource:Play ()
+HorseSound:Update () (at Assets/HorseRacing/scripts/HorseSound.cs:29)
+
+[2021/09/08 10:59:27] Log: 2021/9/8 10:59:27 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:27] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:27] Warning: Can not play a disabled audio source
+UnityEngine.AudioSource:Play ()
+HorseSound:Update () (at Assets/HorseRacing/scripts/HorseSound.cs:29)
+
+[2021/09/08 10:59:27] Warning: Can not play a disabled audio source
+UnityEngine.AudioSource:Play ()
+HorseSound:Update () (at Assets/HorseRacing/scripts/HorseSound.cs:29)
+
+[2021/09/08 10:59:28] Log: 2021/9/8 10:59:28 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:28] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:28] Warning: Can not play a disabled audio source
+UnityEngine.AudioSource:Play ()
+HorseSound:Update () (at Assets/HorseRacing/scripts/HorseSound.cs:29)
+
+[2021/09/08 10:59:29] Log: 2021/9/8 10:59:29 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:29] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:31] Log: 2021/9/8 10:59:31 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:31] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:33] Log: 2021/9/8 10:59:33 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:33] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:35] Log: 2021/9/8 10:59:35 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:35] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:37] Log: 2021/9/8 10:59:37 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:37] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:39] Log: 2021/9/8 10:59:39 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:39] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:41] Log: 2021/9/8 10:59:41 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:41] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:43] Log: 2021/9/8 10:59:43 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:43] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:45] Log: 2021/9/8 10:59:45 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:45] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:47] Log: 2021/9/8 10:59:47 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:47] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:49] Log: 2021/9/8 10:59:49 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:49] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:51] Log: 2021/9/8 10:59:51 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:51] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:53] Log: 2021/9/8 10:59:53 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:53] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:55] Log: 2021/9/8 10:59:55 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:55] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:58] Log: 2021/9/8 10:59:58 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 10:59:58] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 11:00:01] Log: 2021/9/8 11:00:01 parse json data 
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:36)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/09/08 11:00:02] Log: data info 0 # data result 2109080659 # model info 2109080659 # model result 2109080659
+UnityEngine.Debug:LogFormat (string,object[])
+CallWebServiceCommand:onComplete (string) (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:38)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+WebService/<GetRequest>d__18:MoveNext () (at Assets/HorseRacing/scripts/main/service/WebService.cs:54)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+

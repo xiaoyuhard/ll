@@ -1,0 +1,234 @@
+﻿[2021/08/30 04:32:39] Log: Scene Main2 is loaded
+UnityEngine.Debug:Log (object)
+Reporter:_OnLevelWasLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/third-party/unity-log-viewer/Reporter/Reporter.cs:2055)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[2021/08/30 04:32:39] Log: MiniMapPanel 1200 1800
+UnityEngine.Debug:LogFormat (string,object[])
+UIView:Init () (at Assets/HorseRacing/scripts/main/view/UIView.cs:50)
+UiMeditor:OnRegister () (at Assets/HorseRacing/scripts/main/view/UiMeditor.cs:27)
+strange.extensions.mediation.impl.AbstractMediationBinder:ApplyMediationToView (strange.extensions.mediation.api.IMediationBinding,strange.extensions.mediation.api.IView,System.Type) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:99)
+strange.extensions.mediation.impl.AbstractMediationBinder:MapView (strange.extensions.mediation.api.IView,strange.extensions.mediation.api.IMediationBinding) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:240)
+strange.extensions.mediation.impl.AbstractMediationBinder:Trigger (strange.extensions.mediation.api.MediationEvent,strange.extensions.mediation.api.IView) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:56)
+strange.extensions.mediation.impl.AbstractMediationBinder:InjectViewAndChildren (strange.extensions.mediation.api.IView) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:122)
+strange.extensions.mediation.impl.AbstractMediationBinder:Trigger (strange.extensions.mediation.api.MediationEvent,strange.extensions.mediation.api.IView) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:74)
+strange.extensions.context.impl.MVCSContext:postBindings () (at Assets/third-party/Strange/extensions/context/impl/MVCSContext.cs:270)
+strange.extensions.context.impl.Context:Start () (at Assets/third-party/Strange/extensions/context/impl/Context.cs:105)
+MainContext:Start () (at Assets/HorseRacing/scripts/main/MainContext.cs:64)
+strange.extensions.context.impl.Context:.ctor (object,strange.extensions.context.api.ContextStartupFlags) (at Assets/third-party/Strange/extensions/context/impl/Context.cs:66)
+strange.extensions.context.impl.Context:.ctor (object) (at Assets/third-party/Strange/extensions/context/impl/Context.cs:70)
+strange.extensions.context.impl.CrossContext:.ctor (object) (at Assets/third-party/Strange/extensions/context/impl/CrossContext.cs:65)
+strange.extensions.context.impl.MVCSContext:.ctor (UnityEngine.MonoBehaviour) (at Assets/third-party/Strange/extensions/context/impl/MVCSContext.cs:206)
+MainContext:.ctor (UnityEngine.MonoBehaviour) (at Assets/HorseRacing/scripts/main/MainContext.cs:11)
+MainBootstrap:Start () (at Assets/HorseRacing/scripts/main/MainBootstrap.cs:22)
+
+[2021/08/30 04:32:40] Warning: There are menu items registered under Edit/Project Settings: Version/Edit Version, Version/Configuration
+Consider using [SettingsProvider] attribute to register in the Unified Settings Window.
+
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[2021/08/30 04:32:41] Log: Text (TMP) (TMPro.TextMeshProUGUI)
+UnityEngine.MonoBehaviour:print (object)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:195)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:70)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+LocalService:Request () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:31)
+CallWebServiceCommand:Execute () (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:24)
+strange.extensions.command.impl.CommandBinder:executeCommand (strange.extensions.command.api.ICommand) (at Assets/third-party/Strange/extensions/command/impl/CommandBinder.cs:212)
+strange.extensions.command.impl.SignalCommandBinder:invokeCommand (System.Type,strange.extensions.command.api.ICommandBinding,object,int) (at Assets/third-party/Strange/extensions/command/impl/SignalCommandBinder.cs:100)
+strange.extensions.command.impl.CommandBinder:next (strange.extensions.command.api.ICommandBinding,object,int) (at Assets/third-party/Strange/extensions/command/impl/CommandBinder.cs:125)
+strange.extensions.command.impl.CommandBinder:ReactTo (object,object) (at Assets/third-party/Strange/extensions/command/impl/CommandBinder.cs:113)
+strange.extensions.signal.impl.BaseSignal:Dispatch (object[]) (at Assets/third-party/Strange/extensions/signal/impl/BaseSignal.cs:49)
+strange.extensions.signal.impl.Signal:Dispatch () (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:110)
+AMediaa:OnClick () (at Assets/HorseRacing/scripts/main/view/AMediaa.cs:25)
+strange.extensions.signal.impl.Signal:Dispatch () (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:106)
+RequestPerSecondsView:Request2 () (at Assets/HorseRacing/scripts/main/view/RequestPerSecondsView.cs:34)
+
+[2021/08/30 04:32:42] Log: 11,3089,120000
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:76)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 12,3109,120030
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:76)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 13,3282,120020
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:76)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 14,3181,120040
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:76)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 15,3227,120020
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:76)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 16,3268,120040
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:76)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 17,3210,120020
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:76)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 18,3255,120020
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:76)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 19,3365,120040
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:76)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 20,3257,120010
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:76)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Warning: 比赛成绩：
+5,11,3089,1199.99997317791,1
+4,12,3109,1200.2999731712,2
+7,14,3181,1200.39997316897,4
+6,17,3210,1200.19997317344,7
+10,15,3227,1200.19997317344,5
+3,18,3255,1200.19997317344,8
+9,20,3257,1200.09997317567,10
+8,16,3268,1200.39997316897,6
+2,13,3282,1200.19997317344,3
+1,19,3365,1200.39997316897,9
+UnityEngine.Debug:LogWarning (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:94)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 11号马,花费了: 30.88秒，走了3089个0.01s,终点距离是120000速度是: 21.28,21.74,22.22,22.73,23.26,24.39,24.39,25.64,25.64,26.32,27.03,27.78,27.78,29.41,28.57,29.41,30.30,30.30,31.25,31.25,32.26,32.26,32.26,33.33,33.33,33.33,34.48,34.48,34.48,34.48,35.71,35.71,37.04,35.71,37.04,37.04,37.04,37.04,38.46,38.46,38.46,38.46,38.46,40.00,38.46,40.00,40.00,40.00,40.00,41.67,40.00,41.67,40.00,41.67,41.67,41.67,43.48,41.67,41.67,43.48,43.48,41.67,43.48,43.48,43.48,43.48,45.45,43.48,43.48,45.45,43.48,45.45,45.45,45.45,43.48,45.45,45.45,47.62,45.45,45.45,45.45,47.62,45.45,47.62,45.45,47.62,47.62,45.45,47.62,47.62,47.62,47.62,47.62,47.62,47.62,50.00,47.62,50.00,50.00,50.00,50.00,50.00,50.00,52.63,50.00,50.00,52.63,50.00,52.63,50.00,52.63,50.00,52.63,52.63,50.00,52.63,52.63,50.00,52.63,52.63
+UnityEngine.Debug:Log (object)
+HorseItemView:run () (at Assets/HorseRacing/scripts/main/view/HorseItemView.cs:161)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:165)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 12号马,花费了: 31.08秒，走了3109个0.01s,终点距离是120030速度是: 20.41,21.28,21.74,22.73,23.26,24.39,24.39,25.64,26.32,26.32,27.78,27.78,27.78,29.41,29.41,29.41,30.30,31.25,31.25,31.25,32.26,32.26,33.33,33.33,33.33,33.33,34.48,34.48,34.48,35.71,35.71,35.71,35.71,37.04,37.04,37.04,37.04,37.04,38.46,37.04,38.46,38.46,38.46,40.00,38.46,40.00,40.00,40.00,40.00,40.00,40.00,41.67,40.00,41.67,41.67,41.67,41.67,41.67,41.67,41.67,43.48,41.67,43.48,41.67,43.48,43.48,43.48,43.48,43.48,43.48,43.48,45.45,43.48,45.45,43.48,45.45,43.48,45.45,45.45,45.45,45.45,45.45,45.45,45.45,45.45,45.45,47.62,45.45,47.62,45.45,47.62,45.45,47.62,45.45,47.62,45.45,47.62,47.62,50.00,47.62,50.00,50.00,50.00,50.00,52.63,50.00,50.00,52.63,50.00,52.63,50.00,52.63,50.00,52.63,50.00,52.63,50.00,52.63,52.63,50.00
+UnityEngine.Debug:Log (object)
+HorseItemView:run () (at Assets/HorseRacing/scripts/main/view/HorseItemView.cs:161)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:165)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 13号马,花费了: 32.81秒，走了3282个0.01s,终点距离是120020速度是: 19.61,19.23,19.61,20.00,20.00,20.41,21.28,21.28,21.74,22.73,22.73,23.26,23.81,24.39,24.39,25.64,25.64,26.32,27.03,27.03,28.57,27.78,28.57,29.41,30.30,29.41,31.25,30.30,32.26,31.25,32.26,33.33,33.33,33.33,33.33,34.48,34.48,35.71,34.48,37.04,35.71,35.71,37.04,37.04,38.46,37.04,38.46,38.46,38.46,38.46,40.00,40.00,40.00,40.00,40.00,40.00,41.67,41.67,41.67,41.67,41.67,41.67,43.48,41.67,43.48,43.48,43.48,43.48,43.48,45.45,43.48,45.45,43.48,45.45,45.45,45.45,45.45,45.45,47.62,45.45,45.45,47.62,45.45,47.62,47.62,47.62,47.62,47.62,47.62,47.62,47.62,47.62,47.62,50.00,47.62,47.62,50.00,47.62,50.00,52.63,50.00,50.00,52.63,52.63,50.00,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,55.56,52.63,52.63,52.63,52.63,52.63
+UnityEngine.Debug:Log (object)
+HorseItemView:run () (at Assets/HorseRacing/scripts/main/view/HorseItemView.cs:161)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:165)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 14号马,花费了: 31.80秒，走了3181个0.01s,终点距离是120040速度是: 21.28,21.28,21.28,21.74,22.22,22.73,22.73,23.26,23.81,23.81,25.00,25.00,25.64,25.64,27.03,27.03,27.03,28.57,27.78,29.41,29.41,29.41,30.30,30.30,31.25,31.25,32.26,32.26,33.33,32.26,33.33,34.48,34.48,34.48,34.48,35.71,35.71,35.71,37.04,35.71,37.04,37.04,38.46,38.46,37.04,38.46,40.00,38.46,40.00,40.00,38.46,41.67,40.00,40.00,41.67,41.67,41.67,41.67,41.67,41.67,43.48,41.67,43.48,43.48,43.48,43.48,43.48,43.48,45.45,43.48,45.45,43.48,45.45,45.45,45.45,45.45,45.45,45.45,47.62,45.45,47.62,45.45,47.62,45.45,47.62,47.62,47.62,47.62,47.62,47.62,47.62,50.00,47.62,47.62,47.62,50.00,47.62,50.00,50.00,50.00,50.00,52.63,50.00,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63
+UnityEngine.Debug:Log (object)
+HorseItemView:run () (at Assets/HorseRacing/scripts/main/view/HorseItemView.cs:161)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:165)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 15号马,花费了: 32.26秒，走了3227个0.01s,终点距离是120020速度是: 20.00,20.83,21.28,21.74,22.73,23.26,24.39,24.39,25.64,25.64,26.32,27.03,27.03,27.78,28.57,28.57,29.41,29.41,30.30,30.30,30.30,31.25,32.26,31.25,32.26,33.33,32.26,33.33,33.33,34.48,34.48,34.48,34.48,34.48,35.71,35.71,35.71,35.71,37.04,35.71,37.04,37.04,37.04,38.46,37.04,38.46,38.46,37.04,40.00,38.46,38.46,40.00,38.46,40.00,40.00,40.00,40.00,40.00,40.00,40.00,41.67,40.00,41.67,41.67,41.67,41.67,41.67,41.67,41.67,41.67,43.48,41.67,41.67,43.48,43.48,43.48,41.67,43.48,43.48,43.48,43.48,43.48,45.45,43.48,43.48,45.45,43.48,45.45,43.48,45.45,45.45,43.48,45.45,45.45,45.45,47.62,45.45,47.62,47.62,45.45,47.62,47.62,50.00,47.62,47.62,50.00,47.62,47.62,50.00,50.00,47.62,50.00,47.62,50.00,50.00,47.62,50.00,50.00,47.62,50.00
+UnityEngine.Debug:Log (object)
+HorseItemView:run () (at Assets/HorseRacing/scripts/main/view/HorseItemView.cs:161)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:165)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 16号马,花费了: 32.67秒，走了3268个0.01s,终点距离是120040速度是: 20.00,20.00,20.00,20.83,20.83,21.28,22.22,22.22,23.26,23.26,23.81,24.39,25.00,25.64,26.32,26.32,27.03,27.03,27.78,28.57,28.57,29.41,29.41,30.30,30.30,31.25,31.25,31.25,32.26,32.26,33.33,33.33,33.33,34.48,34.48,34.48,34.48,35.71,35.71,35.71,35.71,37.04,37.04,37.04,37.04,38.46,37.04,38.46,38.46,38.46,40.00,38.46,40.00,40.00,40.00,40.00,41.67,40.00,41.67,40.00,41.67,41.67,41.67,43.48,41.67,43.48,41.67,43.48,43.48,43.48,43.48,43.48,43.48,43.48,45.45,43.48,45.45,43.48,45.45,45.45,45.45,45.45,45.45,45.45,45.45,47.62,45.45,45.45,47.62,47.62,45.45,47.62,47.62,47.62,47.62,47.62,47.62,50.00,47.62,50.00,50.00,50.00,50.00,50.00,50.00,50.00,50.00,50.00,52.63,50.00,50.00,52.63,50.00,50.00,52.63,50.00,52.63,50.00,52.63,50.00
+UnityEngine.Debug:Log (object)
+HorseItemView:run () (at Assets/HorseRacing/scripts/main/view/HorseItemView.cs:161)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:165)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 17号马,花费了: 32.09秒，走了3210个0.01s,终点距离是120020速度是: 20.83,20.41,20.83,20.83,21.28,21.74,22.22,22.73,22.73,23.26,23.81,24.39,25.00,25.00,25.64,26.32,27.03,27.03,27.78,27.78,28.57,29.41,29.41,30.30,30.30,31.25,31.25,31.25,32.26,33.33,32.26,33.33,34.48,34.48,34.48,34.48,35.71,35.71,35.71,37.04,35.71,37.04,38.46,37.04,38.46,38.46,38.46,38.46,40.00,40.00,40.00,40.00,40.00,40.00,41.67,41.67,41.67,41.67,41.67,41.67,43.48,41.67,43.48,43.48,43.48,43.48,43.48,45.45,43.48,45.45,45.45,43.48,45.45,45.45,45.45,45.45,47.62,45.45,45.45,47.62,47.62,45.45,47.62,47.62,47.62,47.62,47.62,47.62,47.62,47.62,50.00,47.62,47.62,50.00,47.62,50.00,47.62,50.00,50.00,52.63,50.00,52.63,52.63,50.00,52.63,52.63,52.63,55.56,52.63,52.63,52.63,52.63,52.63,55.56,52.63,52.63,52.63,55.56,52.63,52.63
+UnityEngine.Debug:Log (object)
+HorseItemView:run () (at Assets/HorseRacing/scripts/main/view/HorseItemView.cs:161)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:165)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 18号马,花费了: 32.54秒，走了3255个0.01s,终点距离是120020速度是: 20.00,20.00,20.41,20.41,21.28,21.28,21.74,22.22,22.73,23.26,23.81,24.39,24.39,25.00,26.32,25.64,27.03,27.03,27.78,27.78,28.57,29.41,29.41,29.41,31.25,30.30,31.25,31.25,32.26,32.26,33.33,33.33,33.33,34.48,33.33,35.71,34.48,35.71,35.71,35.71,35.71,37.04,37.04,37.04,38.46,37.04,38.46,38.46,40.00,38.46,40.00,38.46,40.00,40.00,41.67,40.00,41.67,40.00,41.67,41.67,41.67,41.67,43.48,41.67,43.48,43.48,41.67,43.48,45.45,43.48,43.48,43.48,45.45,43.48,45.45,45.45,45.45,45.45,45.45,45.45,45.45,45.45,47.62,45.45,47.62,45.45,47.62,47.62,45.45,47.62,47.62,47.62,47.62,50.00,47.62,47.62,50.00,50.00,47.62,50.00,50.00,50.00,52.63,50.00,50.00,52.63,50.00,50.00,52.63,52.63,50.00,52.63,50.00,52.63,52.63,50.00,52.63,52.63,50.00,52.63
+UnityEngine.Debug:Log (object)
+HorseItemView:run () (at Assets/HorseRacing/scripts/main/view/HorseItemView.cs:161)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:165)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 19号马,花费了: 33.64秒，走了3365个0.01s,终点距离是120040速度是: 19.23,19.23,19.61,19.61,19.61,20.41,20.41,20.83,21.28,21.28,22.22,22.73,22.73,23.26,24.39,24.39,24.39,25.64,25.64,26.32,27.03,27.03,27.78,27.78,28.57,29.41,29.41,29.41,30.30,31.25,31.25,31.25,32.26,32.26,33.33,33.33,33.33,33.33,34.48,34.48,35.71,34.48,35.71,37.04,35.71,37.04,37.04,37.04,38.46,37.04,38.46,38.46,40.00,38.46,40.00,40.00,40.00,40.00,40.00,41.67,40.00,41.67,41.67,41.67,43.48,41.67,41.67,43.48,43.48,43.48,43.48,43.48,43.48,43.48,45.45,43.48,45.45,45.45,45.45,45.45,45.45,45.45,45.45,45.45,47.62,45.45,47.62,45.45,47.62,47.62,47.62,47.62,47.62,47.62,47.62,47.62,47.62,50.00,50.00,47.62,52.63,50.00,50.00,50.00,52.63,50.00,52.63,50.00,52.63,52.63,50.00,52.63,52.63,52.63,50.00,52.63,52.63,52.63,50.00,52.63
+UnityEngine.Debug:Log (object)
+HorseItemView:run () (at Assets/HorseRacing/scripts/main/view/HorseItemView.cs:161)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:165)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:32:42] Log: 20号马,花费了: 32.56秒，走了3257个0.01s,终点距离是120010速度是: 21.28,20.83,20.83,20.83,20.83,20.83,20.83,21.28,20.83,21.28,21.74,21.74,21.74,22.22,22.22,22.73,23.26,23.26,23.81,24.39,25.00,25.00,25.64,26.32,26.32,27.03,27.78,28.57,28.57,29.41,29.41,30.30,31.25,31.25,32.26,32.26,33.33,34.48,33.33,34.48,35.71,35.71,37.04,35.71,38.46,37.04,38.46,38.46,40.00,38.46,41.67,40.00,41.67,40.00,43.48,41.67,41.67,43.48,43.48,45.45,43.48,45.45,43.48,45.45,45.45,47.62,45.45,47.62,47.62,47.62,47.62,47.62,47.62,50.00,47.62,50.00,50.00,50.00,50.00,50.00,50.00,52.63,50.00,52.63,50.00,52.63,52.63,52.63,52.63,52.63,52.63,52.63,52.63,55.56,52.63,52.63,52.63,55.56,52.63,55.56,55.56,55.56,55.56,58.82,55.56,58.82,55.56,58.82,55.56,58.82,58.82,55.56,58.82,58.82,55.56,58.82,58.82,55.56,58.82,58.82
+UnityEngine.Debug:Log (object)
+HorseItemView:run () (at Assets/HorseRacing/scripts/main/view/HorseItemView.cs:161)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:165)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 04:36:52] Warning: Assets\HorseRacing\scripts\FileLogger.cs(6,7): warning CS0105: The using directive for 'UnityEngine' appeared previously in this namespace
+
+[2021/08/30 04:36:52] Warning: Assets\HorseRacing\scripts\main\view\RacingView.cs(29,18): warning CS0114: 'RacingView.Start()' hides inherited member 'View.Start()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+
+[2021/08/30 04:36:52] Warning: Assets\HorseRacing\scripts\main\view\UIView.cs(30,18): warning CS0114: 'UIView.Start()' hides inherited member 'View.Start()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+
+[2021/08/30 04:36:52] Warning: Assets\HorseRacing\scripts\main\controller\CallbackWebServiceCommand.cs(19,9): warning CS0162: Unreachable code detected
+
+[2021/08/30 04:36:52] Warning: Assets\HorseRacing\scripts\main\service\WebService.cs(47,17): warning CS0618: 'UnityWebRequest.isHttpError' is obsolete: 'UnityWebRequest.isHttpError is deprecated. Use (UnityWebRequest.result == UnityWebRequest.Result.ProtocolError) instead.'
+
+[2021/08/30 04:36:52] Warning: Assets\HorseRacing\scripts\main\service\WebService.cs(47,43): warning CS0618: 'UnityWebRequest.isNetworkError' is obsolete: 'UnityWebRequest.isNetworkError is deprecated. Use (UnityWebRequest.result == UnityWebRequest.Result.ConnectionError) instead.'
+
+[2021/08/30 04:36:52] Warning: Assets\HorseRacing\scripts\main\view\UiMeditor.cs(23,18): warning CS0414: The field 'UiMeditor.showRacing' is assigned but its value is never used
+
+[2021/08/30 04:36:52] Warning: Assets\HorseRacing\scripts\main\controller\CallWebServiceCommand.cs(18,20): warning CS0414: The field 'CallWebServiceCommand.response_cache' is assigned but its value is never used
+
+[2021/08/30 04:36:52] Warning: Assets\HorseRacing\scripts\main\view\UiMeditor.cs(21,17): warning CS0414: The field 'UiMeditor.frameIndex' is assigned but its value is never used
+
+[2021/08/30 04:36:52] Warning: Assets\HorseRacing\scripts\ClickToMove.cs(10,16): warning CS0414: The field 'ClickToMove.m_HitInfo' is assigned but its value is never used
+

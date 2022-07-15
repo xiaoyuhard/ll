@@ -1,0 +1,124 @@
+﻿[2021/08/30 14:33:36] Log: Scene Main2 is loaded
+UnityEngine.Debug:Log (object)
+Reporter:_OnLevelWasLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/third-party/unity-log-viewer/Reporter/Reporter.cs:2055)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[2021/08/30 14:33:36] Log: MiniMapPanel 1200 1800
+UnityEngine.Debug:LogFormat (string,object[])
+UIView:Init () (at Assets/HorseRacing/scripts/main/view/UIView.cs:50)
+UiMeditor:OnRegister () (at Assets/HorseRacing/scripts/main/view/UiMeditor.cs:27)
+strange.extensions.mediation.impl.AbstractMediationBinder:ApplyMediationToView (strange.extensions.mediation.api.IMediationBinding,strange.extensions.mediation.api.IView,System.Type) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:99)
+strange.extensions.mediation.impl.AbstractMediationBinder:MapView (strange.extensions.mediation.api.IView,strange.extensions.mediation.api.IMediationBinding) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:240)
+strange.extensions.mediation.impl.AbstractMediationBinder:Trigger (strange.extensions.mediation.api.MediationEvent,strange.extensions.mediation.api.IView) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:56)
+strange.extensions.mediation.impl.AbstractMediationBinder:InjectViewAndChildren (strange.extensions.mediation.api.IView) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:122)
+strange.extensions.mediation.impl.AbstractMediationBinder:Trigger (strange.extensions.mediation.api.MediationEvent,strange.extensions.mediation.api.IView) (at Assets/third-party/Strange/extensions/mediation/impl/AbstractMediationBinder.cs:74)
+strange.extensions.context.impl.MVCSContext:postBindings () (at Assets/third-party/Strange/extensions/context/impl/MVCSContext.cs:270)
+strange.extensions.context.impl.Context:Start () (at Assets/third-party/Strange/extensions/context/impl/Context.cs:105)
+MainContext:Start () (at Assets/HorseRacing/scripts/main/MainContext.cs:65)
+strange.extensions.context.impl.Context:.ctor (object,strange.extensions.context.api.ContextStartupFlags) (at Assets/third-party/Strange/extensions/context/impl/Context.cs:66)
+strange.extensions.context.impl.Context:.ctor (object) (at Assets/third-party/Strange/extensions/context/impl/Context.cs:70)
+strange.extensions.context.impl.CrossContext:.ctor (object) (at Assets/third-party/Strange/extensions/context/impl/CrossContext.cs:65)
+strange.extensions.context.impl.MVCSContext:.ctor (UnityEngine.MonoBehaviour) (at Assets/third-party/Strange/extensions/context/impl/MVCSContext.cs:206)
+MainContext:.ctor (UnityEngine.MonoBehaviour) (at Assets/HorseRacing/scripts/main/MainContext.cs:11)
+MainBootstrap:Start () (at Assets/HorseRacing/scripts/main/MainBootstrap.cs:22)
+
+[2021/08/30 14:33:37] Warning: There are menu items registered under Edit/Project Settings: Version/Edit Version, Version/Configuration
+Consider using [SettingsProvider] attribute to register in the Unified Settings Window.
+
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[2021/08/30 14:33:38] Log: Text (TMP) (TMPro.TextMeshProUGUI)
+UnityEngine.MonoBehaviour:print (object)
+ShowHorseView:SetState (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseView.cs:214)
+ShowHorseMediator:onRaceInfoChanged (string) (at Assets/HorseRacing/scripts/main/view/ShowHorseMediator.cs:25)
+strange.extensions.signal.impl.Signal`1<string>:Dispatch (string) (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:166)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:70)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+LocalService:Request () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:31)
+CallWebServiceCommand:Execute () (at Assets/HorseRacing/scripts/main/controller/CallWebServiceCommand.cs:24)
+strange.extensions.command.impl.CommandBinder:executeCommand (strange.extensions.command.api.ICommand) (at Assets/third-party/Strange/extensions/command/impl/CommandBinder.cs:212)
+strange.extensions.command.impl.SignalCommandBinder:invokeCommand (System.Type,strange.extensions.command.api.ICommandBinding,object,int) (at Assets/third-party/Strange/extensions/command/impl/SignalCommandBinder.cs:100)
+strange.extensions.command.impl.CommandBinder:next (strange.extensions.command.api.ICommandBinding,object,int) (at Assets/third-party/Strange/extensions/command/impl/CommandBinder.cs:125)
+strange.extensions.command.impl.CommandBinder:ReactTo (object,object) (at Assets/third-party/Strange/extensions/command/impl/CommandBinder.cs:113)
+strange.extensions.signal.impl.BaseSignal:Dispatch (object[]) (at Assets/third-party/Strange/extensions/signal/impl/BaseSignal.cs:49)
+strange.extensions.signal.impl.Signal:Dispatch () (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:110)
+AMediaa:OnClick () (at Assets/HorseRacing/scripts/main/view/AMediaa.cs:25)
+strange.extensions.signal.impl.Signal:Dispatch () (at Assets/third-party/Strange/extensions/signal/impl/Signal.cs:106)
+RequestPerSecondsView:Request2 () (at Assets/HorseRacing/scripts/main/view/RequestPerSecondsView.cs:34)
+
+[2021/08/30 14:33:39] Log: 11,3089,120000
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 14:33:39] Log: 12,3109,120030
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 14:33:39] Log: 13,3282,120020
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 14:33:39] Log: 14,3181,120040
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 14:33:39] Log: 15,3227,120020
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 14:33:39] Log: 16,3268,120040
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 14:33:39] Log: 17,3210,120020
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 14:33:39] Log: 18,3255,120020
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 14:33:39] Log: 19,3365,120040
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 14:33:39] Log: 20,3257,120010
+UnityEngine.Debug:Log (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:79)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[2021/08/30 14:33:39] Warning: 比赛成绩：
+5,11,30.89,120000,1
+4,12,31.09,120030,2
+7,14,31.81,120040,4
+6,17,32.1,120020,7
+10,15,32.27,120020,5
+3,18,32.55,120020,8
+9,20,32.57,120010,10
+8,16,32.68,120040,6
+2,13,32.82,120020,3
+1,19,33.65,120040,9
+UnityEngine.Debug:LogWarning (object)
+RaceModel:CalculatRaking () (at Assets/HorseRacing/scripts/main/model/RaceModel.cs:95)
+LocalService/<GetRequest>d__15:MoveNext () (at Assets/HorseRacing/scripts/main/service/LocalService.cs:74)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
